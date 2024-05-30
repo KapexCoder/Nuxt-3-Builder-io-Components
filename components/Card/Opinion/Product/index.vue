@@ -1,6 +1,6 @@
 <template>
     <div class="relative">
-        <Card root-class="px-0 z-0">
+        <Card root-class="px-0">
             <NuxtImg src="https://images.pexels.com/photos/6232443/pexels-photo-6232443.jpeg" />
         </Card>
         <Card :title="props.title" :body="props.description" root-class="w-11/12 mx-auto -mt-10 bg-white relative z-10" >
