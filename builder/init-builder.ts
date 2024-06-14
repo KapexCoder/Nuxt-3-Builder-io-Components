@@ -1,9 +1,7 @@
-import {
-    Accordion,
-    Button,
-    Tabs,
-    TabsHorizontal
-} from "../components";
+import Accordion from "../components/Accordion/index.vue";
+import Button from "../components/Button/index.vue";
+import Tabs from "../components/Tabs/index.vue";
+import TabsHorizontal from "../components/Tabs/Horizontal/index.vue";
 
 export const REGISTERED_COMPONENTS = [
     {
