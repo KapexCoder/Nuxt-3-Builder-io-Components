@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ["nuxt-icon", "@nuxtjs/tailwindcss", "@nuxt/image", "vue3-carousel-nuxt"],
+  modules: ["nuxt-icon", "@nuxtjs/tailwindcss", "@nuxt/image", "vue3-carousel-nuxt", "@nuxt/test-utils/module"],
+
+  typescript: {
+    typeCheck: true
+  },
 
   // css customization
   css: [
@@ -30,6 +34,6 @@ export default defineNuxtConfig({
       level: 2
     },
     config: {},
-    viewer: true,
+    viewer: true
   }
 })
