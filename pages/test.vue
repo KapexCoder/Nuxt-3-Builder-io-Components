@@ -1,9 +1,11 @@
 <template>
     <div class="p-4">
         <div class="my-8">
-            <CardOpinionProduct />
+            <!-- <CardOpinionProduct />
 
-            <Button to="/" label="Click me!" />
+            <Button to="/" label="Click me!" /> -->
+
+            <TsCarousel />
         </div>
     </div>
 </template>
