@@ -20,25 +20,19 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { twMerge } from "tailwind-merge";
 
-const props = defineProps({
-    title: {
-        type: String,
-        default: "",
-    },
-    body: {
-        type: String,
-        default: "",
-    },
-    footer: {
-        type: String,
-        default: "",
-    },
-    rootClass: String,
-    headerClass: String,
-    bodyClass: String,
-    footerClass: String,
-});
+type Props = {
+    title?: string;
+    body?: string;
+    footer?: string;
+    rootClass?: string;
+    headerClass?: string;
+    bodyClass?: string;
+    footerClass?: string;
+}
+
+const props = defineProps<Props>();
+
 </script>
